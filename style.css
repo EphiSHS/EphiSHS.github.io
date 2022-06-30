@@ -1,0 +1,73 @@
+body{
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    background-image:url(somedumbimage.jpg);
+    background-repeat:no-repeat;
+    background-size:1350px 600px;
+}
+
+h1{
+    margin-top:50px;
+    font-size:15px;
+    color:red;
+    text-align:center;
+}
+
+content{
+    color:red;
+    font-size:10px;
+    text-align:center;
+}
+
+ex{
+    margin-top:50px;
+}
+
+.content{
+    display:inline-block;
+    border:10px black;
+    border-radius:200px;
+    background-color: rgb(255,255,0,0.51);
+    color:red;
+    padding: 20px 30px;
+    margin-bottom:50px;
+    margin-top:50px;
+    font-size:15px;
+}
+
+.alpha{
+    font-family:30px;
+    color:red;
+    border:5px blue;
+    border-radius:200px;
+    padding:10px 30px;
+}
+
+.alpha:hover{
+    background-color:blue;
+}
+
+#exception{
+    background-color:black;
+    background-image:none;
+    background-repeat:no-repeat;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.link{
+    background-color:yellow;
+    text-decoration:none;
+    padding:10px 30px;
+    color:blue;
+    margin-top:50px;
+}
+
+.link:hover{
+    color: black;
+    background-color:red;
+}
+
+.rating{
+    margin-right:1200px
+}
