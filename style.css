@@ -1,0 +1,112 @@
+body{
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    background-image:none;
+    background-color:black;
+    background-repeat:no-repeat;
+    background-size:1350px 600px;
+}
+
+h1{
+    margin-top:50px;
+    font-size:15px;
+    color:red;
+    text-align:center;
+}
+
+content{
+    color:red;
+    font-size:10px;
+    text-align:center;
+}
+
+ex{
+    margin-top:50px;
+}
+
+.content{
+    display:inline-block;
+    border:10px black;
+    border-radius:200px;
+    background-color:blue;
+    color:crimson;
+    padding: 30px 30px;
+    margin-bottom:50px;
+    margin-top:50px;
+    font-size:15px;
+    font-style:italic;
+}
+
+.alpha{
+    font-family:30px;
+    color:red;
+    border:5px blue;
+    border-radius:200px;
+    padding:10px 30px;
+}
+
+.alpha:hover{
+    background-color:black;
+}
+
+#exception{
+    background-color:darkblue;
+    background-image:none;
+    background-repeat:no-repeat;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.link{
+    background-color:cyan;
+    text-decoration:none;
+    padding:10px 30px;
+    color:blue;
+    margin-top:50px;
+}
+
+.link:hover{
+    color: black;
+    background-color:red;
+}
+
+.rating{
+    margin-right:1800px
+}
+
+.image{
+    height:600px;
+    width:450px;
+}
+
+.newclass{
+    color:white;
+    text-decoration:none;
+    margin-right:1800px;
+    margin-top:30px;
+    background-color:indianred;
+    border-color:black;
+    padding:5px 5px;
+}
+
+.sameclass{
+    color:white;
+    text-decoration:none;
+    margin-right:1800px;
+    margin-top:300px;
+    background-color:crimson;
+    border-color:black;
+    padding:5px 5px;
+}
+
+.column{
+    float:left;
+    width:33.33%;
+    padding:5px;
+}
+
+.row::after{
+    content:"";
+    clear:both;
+    display:table;
+}
